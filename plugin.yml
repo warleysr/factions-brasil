@@ -1,0 +1,15 @@
+name: FactionsBrasil
+version: 1.0.0
+main: factionsbrasil.FactionsBrasil
+author: zDubsCrazy
+softdepend: [Vault, iConomy, Legendchat]
+commands:
+  faccao:
+    description: Comando base do sistema de faccoes.
+    aliases: []
+  cheirar:
+    description: Da um raio.
+    aliases: []
+  fumar:
+    description: Fuma um baseado.
+    aliases: []

@@ -1,0 +1,13 @@
+MySQL:
+  host: localhost
+  port: 3306
+  user: root
+  pass: passwd
+  db: test
+ReiDoFumo: zDubsCrazy
+ReiDoPo: zDubsCrazy
+ReiDoCrack: zDubsCrazy
+Tags:
+  rei-do-fumo: '&2[Rei do Fumo]'
+  rei-do-po: '&c[&7Rei do Po&c]'
+  rei-do-crack: '&7[&8Rei do Crack&7]'

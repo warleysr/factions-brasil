@@ -1,0 +1,94 @@
+# === GERAIS ===
+falha-mysql: '&7[&aFactions&eBrasil&7] &cFalha interna. Tente novamente.'
+sem-permissao: '&7[&aFactions&eBrasil&7] &cVoce nao possui permissao.'
+sem-dinheiro: '&7[&aFacitons&eBrasil&7] &cVoce nao tem dinheiro suficiente.'
+apenas-players: '&7[&aFactions&eBrasil&7] &cComando apenas para jogadores in-game.'
+faccao-invalida: '&cFaccao invalida. Verifique e tente novamente.'
+nao-possui-faccao: '&cVoce nao esta em uma faccao.'
+nao-possui-faccao-outros: '&cEste jogador nao esta em uma faccao.'
+voce-mesmo: '&cEste jogador e voce mesmo.'
+
+# === COMANDO ALIAR ===
+uso-aliar: 
+- '&cUse /faccao aliar <Nome>'
+- '&7As faccoes disponiveis sao:'
+- '&7- &cCV &f(Comando Vermelho)'
+- '&7- &9TCA &f(Terceiro Comando dos Amigos)'
+- '&7- &ePCC &f(Primeiro Comando da Capital)'
+ja-possui-faccao: '&cVoce ja possui uma faccao.'
+aliou-faccao: '&aVoce se aliou a faccao @faccao'
+
+# === COMANDO SAIR ===
+saiu-faccao: '&cVoce saiu da sua faccao.'
+
+# === COMANDO INFO ===
+uso-info: '&7[&aFactions&eBrasil&7] &cUse /faccao info <Jogador>'
+info:
+- '&7[&aFactions&eBrasil&7] &7Info:'
+- '  &7Jogador: &f@player'
+- '  &7Faccao: @faccao'
+- '  &7Cargo: &f@cargo'
+
+# === COMANDO DOMINAR ===
+ja-e-dono: '&cVoce ja e dono desta area.'
+mesma-faccao: '&cEsta area e de um cria da sua faccao.'
+sem-poder: '&cVoce nao tem poder de fogo suficiente para dominar esta area.' 
+dominou-livre: '&7Voce dominou uma area &aLIVRE'
+dominou-faccao: '&7Voce dominou uma area da faccao @faccao'
+
+# === COMANDO FAVELA ===
+nenhuma-favela: '&cNao ha uma favela neste local.'
+nao-e-dono: '&cVoce nao e dono desta favela.'
+nome-trocado:  '&aNome da favela trocado para &f@nome'
+favela-info: 
+- '&7[&aFactions&eBrasil&7] Informacoes da Favela:'
+- '&7Nome: &f@nome'
+- '&7Dono: &f@dono'
+- '&7Faccao: @faccao'
+- '&7Crias: &f@membros'
+outra-faccao: '&cEste jogador e de outra faccao. Ta fechando com os alemao?'
+ja-adicionado: '&cEste jogador ja esta adicionado a esta favela.'
+limite-membros: '&cEsta favela ja atingiu o limite de 5 crias adicionados.'
+adicionado: '&aO cria &f@jogador &afoi adicionado a favela &f@favela'
+nao-adicionado: '&cEste jogador nao e cria desta favela.'
+removido: '&aO verme traidor &f@jogador &afoi removido da favela &f@favela'
+
+# === PROTECAO ===
+sem-acesso: '&cVoce nao tem acesso a esta favela.'
+dominar: '&cVoce deve dominar esta area primeiro.'
+nao-agredir: '&cEste jogador e um cria da sua faccao. Voce nao pode feri-lo.'
+
+# === DROGAS ===
+sem-cocaina: '&cVoce nao esta com Cocaina na mao.'
+cheirou: '&aVoce deu um &dRAIO &acabuloso!'
+sem-maconha-crack: '&cVoce nao esta com Maconha nem Crack na mao.'
+fumou-maconha: '&aVoce fumou um &eBECK&a. &aCurta a brisa! &f_\|/_'
+fumou-crack: '&aVoce fumou uma &7Pedra&a. &aVoce esta parecendo um &7&oESQUELETAO&a!'
+sem-bicarbonato: '&cVoce nao tem bicarbonato no inventario.'
+crack-transformado: '&aVoce transformou &fCocaina &ae &fBicarbonato &aem &fPedras de Crack'
+
+# === SHOP ===
+item-invalido: '&7[&aFactions&eBrasil&7] &cItem invalido. Verifique e tente novamente.'
+preco-invalido: '&7[&aFactions&eBrasil&7] &cPreco invalido. Verifique e tente novamente.'
+inventario-cheio: '&7[&aFactions&eBrasil&7] &cSeu inventario esta cheio.'
+comprou: '&7[&aFactions&eBrasil&7] &aVoce comprou &f@item &apor &f$@preco'
+somente-comprar: '&7[&aFactions&eBrasil&7] &cNao estamos comprando este item.'
+nada-para-vender: '&7[&aFactionsBrasil&7] &cVoce nao tem deste item para vender.'
+vendeu: '&7[&aFactions&eBrasil&7] &aVoce vendeu &f@quantidade @item &apor &f$@total'
+
+
+# === AJUDA ===
+ajuda-cabecalho: '&7[&aFactions&eBrasil&7] Comandos disponiveis:'
+ajuda-corpo: '  &7/faccao @comando &f- @descricao'
+
+# === AJUDA FAVELA ===
+ajuda-favela:
+- '&7[&aFactions&eBrasil&7] Gerenciar favela:'
+- '  &7/faccao favela nome &f- Trocar o nome da favela'
+- '  &7/faccao favela info &f- Ver informacoes da favela'
+- '  &7/faccao favela adicionar &f- Adiciona um cria a favela'
+- '  &7/faccao favela remover &f- Remove um cria traidor da favela'
+ajuda-favela-nome: '&cUse /faccao favela nome <Novo Nome>'
+ajuda-favela-adicionar: '&cUse /faccao favela adicionar <Jogador>'
+ajuda-favela-remover: '&cUse /faccao favela remover <Jogador>'
+
